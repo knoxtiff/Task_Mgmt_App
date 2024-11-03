@@ -1,0 +1,8 @@
+.filterBtn{ 
+    background-color: rgba(0, 128, 128, 0.3);
+    font-size: 16px;
+    margin: 26px;
+    padding: 2px 20px; 
+    border-radius: 2px;
+    width: 15%;
+}

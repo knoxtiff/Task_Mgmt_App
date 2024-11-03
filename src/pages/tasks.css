@@ -1,0 +1,56 @@
+.TaskTable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.30) ;
+}
+
+.TaskTable thead tr {
+    background-color: darkgray;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.TaskTable th, .TaskTable td {
+ padding: 12px 15px;   
+}
+
+.TaskTable tbody tr {
+    border-bottom: 2px solid darkgray;
+    font-size: 16px;
+}
+.TaskTable tbody tr:nth-of-type(even) {
+    background-color: rgba(0, 128, 128, 0.3);
+}
+.TaskTable tbody tr:last-of-type {
+    border-bottom: 4px solid rgb(0, 128, 128);
+}
+
+h2 {
+    font-style: italic;
+}
+.taskForm {
+    display: block; 
+    text-align: left;
+    margin: 0 0 2vh 0; 
+}
+.taskForm-input {
+    display: block;
+    width: 50%;
+    padding: .4rem .6rem .4rem .6rem;
+    margin: .2vw 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid lightgray;
+}
+
+.taskForm-btn {
+    font-size: 16px;
+    background-color: rgba(0, 128, 128, 0.3);
+    width: 15%;
+}
